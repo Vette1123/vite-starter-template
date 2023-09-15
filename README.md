@@ -1,27 +1,36 @@
-# React + TypeScript + Vite
+# Sadge Template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
 
-Currently, two official plugins are available:
+Welcome to [Sadge Template](https://github.com/Vette1123/Next.js-starter-template)! This is a custom Vite project starter template designed to help you kickstart your web development projects quickly and efficiently.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Dark theme with
+- TypeScript support
+- ESLint and Prettier
+- Absolute imports
+- Husky pre-commit hooks
+- Tailwind CSS
+- Shadcn-ui components
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Prerequisites
 
-- Configure the top-level `parserOptions` property like this:
+Before you begin, ensure you have the following installed on your machine:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+- [Node.js](https://nodejs.org) (at least version X.X.X)
+- [npm](https://www.npmjs.com/get-npm) or [Yarn](https://yarnpkg.com/getting-started/install) or [pnpm](https://pnpm.io/installation) (preferred)
+
+### Usage `create-vite-app`
+
+The easiest way to create a new project based on this template is by typing the following commands in your terminal:
+
+```bash
+npx degit Vette1123/vite-starter-template my-project
+
+cd my-project
+
+pnpm install
+
+pnpm run dev
 ```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
