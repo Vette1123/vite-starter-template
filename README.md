@@ -23,7 +23,7 @@ Before you begin, ensure you have the following installed on your machine:
 
 ### Usage `create-vite-app`
 
-The easiest way to create a new project based on this template is by typing the following commands in your terminal:
+The easiest way to create a new project based on this template is by typing the following commands in your terminal (Kindly replace `<my-project>` with the name of your project):
 
 ```bash
 npx degit Vette1123/vite-starter-template my-project
