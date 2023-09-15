@@ -74,3 +74,23 @@
     @apply bg-background text-foreground;
   }
 }
+
+@font-face {
+  font-family: 'roboto-mono-med', monospace;
+  src: url('../assets/RobotoMono-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Mooli', sans-serif;
+  src: url('../assets/Mooli-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url('../assets/Montserrat-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Rubik', sans-serif;
+  src: url('../assets/Rubik-BlackItalic.ttf') format('truetype');
+}
