@@ -2,7 +2,9 @@
 
 ## Introduction
 
-Welcome to [Sadge Template](https://github.com/Vette1123/Next.js-starter-template)! This is a custom Vite project starter template designed to help you kickstart your web development projects quickly and efficiently.
+Welcome to [Sadge Template](https://github.com/Vette1123/vite-starter-template)! This is a custom Vite project starter template designed to help you kickstart your web development projects quickly and efficiently.
+
+You can also find Sadge NextJS template [here](https://github.com/Vette1123/next-js-starter-template)
 
 ## Features
 
