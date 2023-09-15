@@ -6,7 +6,7 @@ Welcome to [Sadge Template](https://github.com/Vette1123/Next.js-starter-templat
 
 ## Features
 
-- Dark theme with
+- Dark theme
 - TypeScript support
 - ESLint and Prettier
 - Absolute imports
